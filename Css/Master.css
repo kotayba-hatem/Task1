@@ -1,0 +1,289 @@
+/* start global rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* end global riles */
+
+.header .container h1 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 10px;
+    text-align: center;
+}
+
+.header .container img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 520px;
+    top: 10px;
+}
+
+.header .container .job h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* About-Me */
+.About-Me .container h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.About-Me .container p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.About-Me .container p span {
+    font-weight: bold;
+}
+
+/* end about me */
+/* Contact me */
+.Contact-Me .container h2 {
+    text-align: center;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+
+.Contact-Me .container ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.Contact-Me .container ul li {
+    margin: 10px;
+}
+
+
+.Contact-Me .container ul li img {
+    width: 20px;
+}
+
+/* end contact me */
+/* Follow me */
+.Follow .container h2 {
+    text-align: center;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+
+.Follow .container ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Follow .container ul li {
+    width: 20px;
+    margin: 10px;
+}
+
+/* end follow */
+/* start Info */
+.Info .container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(450px, 1fr));
+    column-gap: 40px;
+    row-gap: 60px;
+    margin-left: 450px;
+}
+
+.Info .container img {
+    width: 35px;
+    position: relative;
+    left: -45px;
+    bottom: -35px;
+}
+
+.Info .container .Intrests ul img {
+    position: relative;
+    width: 15px;
+    left: -25px;
+    bottom: -15px;
+}
+
+.Info .container .Intrests ul li {
+    margin-top: -5px;
+}
+
+.Info .container h2 {
+    margin: 5px;
+}
+
+.Info .container ul {
+    list-style: disc;
+    margin: 5px;
+}
+
+/* end Info */
+/* Start Contact us */
+.Contact-Us .container {
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 0px 5px rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.Contact-Us .container h2 {
+    color: #000000;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 5px rgb(71, 71, 71);
+}
+
+
+
+.Contact-Us .container label {
+    display: block;
+    margin: 10px 0;
+    color: #000000;
+    text-transform: capitalize;
+    text-align: left;
+    opacity: calc(80%);
+    font-weight: 800;
+}
+
+.Contact-Us .container input[type="text"],
+input[type="Email"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+.Contact-Us .container input[type="button"] {
+    background-color: #d2d2d2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Contact-Us .container input[type="button"]:hover {
+    background-color: #e99800;
+}
+
+/* End Contact us */
+/* Start Location */
+.Location .container iframe {
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 37.5%;
+}
+
+/* end location */
+/* Start table */
+
+.Table .container table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+.Table .container th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.Table .container thead th {
+    border: 1px solid #000;
+    background-color: #f2f2f2;
+}
+
+.Table .container tbody tr:nth-child(even) {
+    background-color: #242424;
+}
+
+.Table .container tbody tr .dark {
+    background-color: #c4c2c2;
+    border-color: #c4c2c2;
+}
+
+/* end table */
+/* start about us */
+.About-Us .container h2 {
+    text-align: center;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+
+.About-Us .container p {
+    text-align: center;
+    color: #242424;
+    margin: 10px auto;
+}
+
+/* end about us */
+/* Start contact Info (: */
+.Contact-Info .container h2 {
+    text-align: center;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+
+.Contact-Info .container p {
+    text-align: center;
+    margin: 10px auto;
+}
+
+/* End Contact info */
+/* start follow Us */
+.Follow-Us .container h2 {
+    text-align: center;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+
+.Follow-Us .container ul {
+    list-style: disc;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+/* The Ends */
